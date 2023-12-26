@@ -1,4 +1,4 @@
-import Home from "pages/Home";
+import Home from "pages/home";
 import SignUp from "components/Signup/SignUp";
 import LoginPage from "pages/Login";
 import Direct from "pages/Direct";
