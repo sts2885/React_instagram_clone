@@ -50,7 +50,7 @@ const Article = ({ article }: any) => {
             (username: string) => username === "like2"
         );
         setMyFollowersLiked(getMyFollowerLiked);
-        setIsMyFollowerLiked(getMyFollowerLiked !== []);
+        setIsMyFollowerLiked(getMyFollowerLiked !== false);
     }, [article]);
 
     const toggleLike = () => setIsliked((prev: boolean) => !prev);
